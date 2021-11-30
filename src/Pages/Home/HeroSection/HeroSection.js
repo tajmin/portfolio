@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 import './HeroSection.css'
 
 const HeroSection = () => {
@@ -12,7 +13,8 @@ const HeroSection = () => {
                         <h5 className="theme-text">Hello there! This is </h5>
                         <h1 className="mb-4 display-3 text-white text-break">Md. Tajminur Rahman</h1>
                         <p className="text-secondary">I'm a web developer based in Rajshahi, Bangladesh. Worked as a software engineer for more than 2 years before moving on to front end. I'm mostly comfortable with React but open to anything exciting, cool and challenging. </p>
-                        <a href={resumeURL} target="_blank" rel="noreferrer" className="btn theme-button py-2 px-4 my-4">Download Resume</a>
+                        <a href={resumeURL} target="_blank" rel="noreferrer" className="btn theme-button py-2 px-4 my-4 me-4">Download Resume</a>
+                        <HashLink to="/home/#about" className="btn theme-button py-2 px-4 my-4">About Me</HashLink>
                     </Col>
                 </Row>
             </Container>

@@ -6,7 +6,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <Container className="p-5">
                 <h2 className="fs-2 theme-text px-3 pb-5">About Me</h2>
                 <Row className="px-3">
