@@ -20,7 +20,7 @@ const ContactMe = () => {
 
     return (
         <div className="min-vh-100 d-flex flex-column justify-content-center align-items-center">
-            <h2 className="display-6 theme-text my-5 pb-5">Let's have a chat!</h2>
+            <h2 className="fs-2 theme-text my-5 pb-5">Let's have a chat!</h2>
             <Container className="d-flex justify-content-center align-items-center">
                 <form className="w-50" onSubmit={handleSubmit(handleForm)}>
                     <div className="mb-4">

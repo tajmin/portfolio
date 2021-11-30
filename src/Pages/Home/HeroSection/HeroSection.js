@@ -15,7 +15,6 @@ const HeroSection = () => {
                         <a href={resumeURL} target="_blank" rel="noreferrer" className="btn theme-button py-2 px-4 my-4">Download Resume</a>
                     </Col>
                 </Row>
-
             </Container>
         </div>
     );

@@ -18,7 +18,7 @@ const Portfolio = () => {
     return (
         <div>
             <Container className="p-5">
-                <h2 className="display-6 theme-text px-3">My Recent Projects</h2>
+                <h2 className="fs-2 theme-text px-3">My Recent Projects</h2>
                 <div className="px-3 pt-3 py-lg-5">
                     <div className="d-flex flex-column flex-lg-row py-5">
                         <div className="pro-img-wrap">
