@@ -4,7 +4,7 @@ import HeroSection from '../HeroSection/HeroSection';
 import Portfolio from '../Portfolio/Portfolio';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faGoogle, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
     return (
@@ -16,14 +16,14 @@ const Home = () => {
                     </a>
                 </div>
             </div>
-            <Parallax pages={3} style={{ top: '0', left: '0' }}>
-                <ParallaxLayer offset={0} speed={1} >
+            <Parallax pages={4.5} style={{ top: '0', left: '0' }}>
+                <ParallaxLayer offset={0} speed={1.5} >
                     <HeroSection></HeroSection>
                 </ParallaxLayer>
-                <ParallaxLayer offset={0.95} speed={0.5} factor={1.5} >
+                <ParallaxLayer offset={1} speed={1.5}>
                     <Portfolio></Portfolio>
                 </ParallaxLayer>
-                <ParallaxLayer offset={2} speed={0.5} >
+                <ParallaxLayer offset={3.8} speed={1.5} >
                     <ContactMe></ContactMe>
                 </ParallaxLayer>
             </Parallax>
