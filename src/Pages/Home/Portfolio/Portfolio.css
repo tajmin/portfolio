@@ -1,0 +1,34 @@
+.pro-img-wrap {
+    width: 100%;
+}
+
+.pro-img-wrap-lt {
+    width: 100%;
+}
+
+.pro-inf-wrap {
+    transform: translateX(0px);
+}
+
+.pro-text-wrap {
+    background: none;
+}
+
+@media only screen and (min-width: 992px) {
+    .pro-img-wrap {
+        width: 75%;
+    }
+    .pro-img-wrap-lt {
+        width: 75%;
+        transform: translateX(-100px);
+        z-index: -11111;
+    }
+
+    .pro-inf-wrap {
+        transform: translateX(-100px);
+    }
+
+    .pro-text-wrap {
+        background-color: rgb(4, 4, 51);
+    }
+  }
